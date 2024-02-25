@@ -1,0 +1,39 @@
+@import url('images.jpeg');
+
+header{
+    width: 100%;
+    height: 100vh;
+    background:fixed url(images.jpeg);
+    background-size: cover;
+    font-family: 'Poppins',sans-serif;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    margin-top: 0px;
+  
+    color: #ebe4e4;
+    display: flex;
+    justify-content: space-around;
+align-items: left;
+}
+.menu a:hover{
+    border: 1px solid rgb(220, 18, 18);
+    background: transparent;
+    text-decoration: none;
+    color: #F6F5F5;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 8px;
+    background: indianred;
+ }
+.menu a{
+    text-decoration: none;
+    color: #000000;
+    padding: 10px 20px;
+    font-size: 20px;
+}   
+.brightness {
+    background-color: white;
+    display: inline-block;
+}
